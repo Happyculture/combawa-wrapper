@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Get the script name with full path directories, follows symlink.
+SCRIPT_DIRNAME=$( readlink -f $( readlink "${BASH_SOURCE[0]}" ))
+
+php_cli=`php -f $SCRIPT_DIRNAME.php`
+exitcode=$?
+
+if [ "$exitcode" = "1" ]; then
+  echo "No drupal found."
+  exit;
+fi
+
+$php_cli/../scripts/build.sh $@
+exit;

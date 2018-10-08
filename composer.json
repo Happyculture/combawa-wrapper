@@ -1,0 +1,11 @@
+{
+    "name": "happyculture/combawa-wrapper",
+    "description": "Provides a combawa executable for your global PATH",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "webflo/drupal-finder": "^1.0"
+    },
+    "bin": [
+        "bin/combawa-wrapper"
+    ]
+}
