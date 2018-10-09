@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Get the script name with full path directories, follows symlink.
-SCRIPT_DIRNAME=$( readlink -f $( readlink "${BASH_SOURCE[0]}" ))
+SCRIPT_DIRNAME=$( readlink -f $( readlink -f "${BASH_SOURCE[0]}" ))
 
 php_cli=`php -f $SCRIPT_DIRNAME.php`
 exitcode=$?

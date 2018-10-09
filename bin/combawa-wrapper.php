@@ -5,6 +5,7 @@ use DrupalFinder\DrupalFinder;
 set_time_limit(0);
 
 $autoloaders = [
+  __DIR__ . '/../../../autoload.php',
   __DIR__ . '/../vendor/autoload.php'
 ];
 
