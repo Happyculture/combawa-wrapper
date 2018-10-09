@@ -8,8 +8,15 @@ exitcode=$?
 
 if [ "$exitcode" = "1" ]; then
   echo "No drupal found."
-  exit;
+  exit 1;
 fi
 
-$php_cli/../scripts/build.sh $@
+if [ -f $php_cli/../vendor/bin/combawa.sh ]; then
+  $php_cli/../vendor/bin/combawa.sh $@
+elif [ -f $php_cli/../scripts/build.sh ]; then
+  $php_cli/../scripts/build.sh $@
+else
+  echo "No combawa binary or build script found."
+  exit 2;
+fi
 exit;
