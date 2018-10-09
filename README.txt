@@ -6,9 +6,9 @@
 
 1. clone the repository in your prefered location
 2. run "composer install" to get all dependencies
-3. add [full-wrapper-path]/bin/combawa-wrapper to you PATH
+3. add [full-wrapper-path]/bin/combawa to you PATH
    OR create a symlink to you bin directory
-   example: "ln -s [full-wrapper-path]/bin/combawa-wrapper /usr/bin/combawa"
+   example: "ln -s [full-wrapper-path]/bin/combawa /usr/bin/combawa"
 
 ### Composer based
 
@@ -27,4 +27,4 @@
 
 ## Usage
 
-Go to any directory in your project and type `combawa-wrapper` followed by the usual Combawa arguments.
+Go to any directory in your project and type `combawa` followed by the usual Combawa arguments.

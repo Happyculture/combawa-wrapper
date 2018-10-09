@@ -5,7 +5,10 @@
     "require": {
         "webflo/drupal-finder": "^1.0"
     },
+    "conflict": {
+        "happyculture/combawa": "*"
+    },
     "bin": [
-        "bin/combawa-wrapper"
+        "bin/combawa"
     ]
 }
