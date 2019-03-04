@@ -12,18 +12,7 @@
 
 ### Composer based
 
-1. add the repository to your $HOME/.config/composer/config.json file
-```
-{
-    "repositories": {
-        "combawa-wrapper": {
-            "type": "vcs",
-            "url": "ssh://duael@review.happyculture.coop:2222/Happyculture/infra/combawa-wrapper.git"
-        }
-    }
-}
-```
-2. run `composer global require happyculture/combawa-wrapper:*@dev`
+1. run `composer global require happyculture/combawa-wrapper:*@dev`
 
 ## Usage
 
