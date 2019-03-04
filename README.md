@@ -1,5 +1,7 @@
 # Combawa wrapper
 
+This is the wrapper of the Combawa project to build your Drupal projects: https://github.com/Happyculture/combawa
+
 ## Installation
 
 ### Standalone
