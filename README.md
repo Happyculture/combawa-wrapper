@@ -14,7 +14,7 @@ This is the wrapper of the Combawa project to build your Drupal projects: https:
 
 ### Composer based
 
-1. run `composer global require happyculture/combawa-wrapper:*@dev`
+1. run `composer global require happyculture/combawa-wrapper:"^1.0"`
 
 ## Usage
 
