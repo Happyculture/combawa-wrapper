@@ -8,13 +8,16 @@ This is the wrapper of the Combawa project to build your Drupal projects: https:
 
 1. clone the repository in your prefered location
 2. run "composer install" to get all dependencies
-3. add [full-wrapper-path]/bin/combawa to you PATH
+3. add `[full-wrapper-path]/bin/combawa` to you `PATH`
    OR create a symlink to you bin directory
-   example: "ln -s [full-wrapper-path]/bin/combawa /usr/bin/combawa"
+   example: `ln -s [full-wrapper-path]/bin/combawa /usr/bin/combawa`
 
 ### Composer based
 
 1. run `composer global require happyculture/combawa-wrapper:"^1.0"`
+2. add `[full-wrapper-path]/bin/combawa` to you `PATH`
+   OR create a symlink to you bin directory
+   example: `ln -s [full-wrapper-path]/bin/combawa /usr/bin/combawa`
 
 ## Usage
 
